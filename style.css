@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: #FFDBC3;
+    
+}
+
+div{
+    border: 2px solid #3D246C;
+}
+
+.nav-superior{
+    display: flex;
+
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+    border: 2px solid #3D246C;
+    height: 50px;
+    
+}
+
+.button{
+    width: 25%;
+    text-align: center;
+}
+
+.main{
+    height: 100%;
+    background-color: #9F91CC;
+}
+
+.sectionA{
+    height: 50%;
+    background-color: #F11A7B;
+    display: flex;
+}
+
+.sectionB{
+    height: 50%;
+    background-color: #3E001F;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column-reverse; /*row or column / column-reverse*/
+    align-items: flex-end; /*flex-start flex-end*/
+    justify-content: flex-start;
+}
+
+.littlesquare{
+    height: 50px;
+    width: 50px;
+    background-color: darkgreen;
+}
